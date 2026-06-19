@@ -255,7 +255,7 @@
         let currentHands = []; // Latest data from MediaPipe
         let handVelocities = 0; // Average hand movement speed
 
-        // Theme Config
+        // Theme Config I used for attractive colors.
         let currentTheme = 'Rainbow';
         const themes = {
             'Rainbow': (t, index, total) => `hsl(${(t * 100 + index * (360 / total)) % 360}, 100%, 60%)`,
